@@ -1,0 +1,71 @@
+
+
+
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E1E1E1;
+    background-color: #121212;
+    padding: 20px;
+}
+
+/* Improving the Dropdown Look */
+.Select-menu-outer {
+    background-color: #333 !important; /* Dark background for dropdown items */
+}
+
+.VirtualizedSelectOption {
+    color: whitesmoke !important; /* Ensures text is dark for visibility against a light background */
+    padding: 10px 20px !important; /* Adds more padding to dropdown items for better readability */
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    line-height: 2 !important; /* Adjust line height for better visibility */
+    padding: 10px !important; /* Add padding inside the dropdown control */
+}
+
+/* DataTable Styling */
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner td {
+    padding: 15px !important; /* Increase padding for table cells */
+}
+
+.dash-table-container {
+    margin-top: 20px; /* Adds margin above the table for better spacing */
+}
+
+/* Graph Styling */
+.dcc_graph {
+    margin-top: 20px; /* Adds margin above graphs for better spacing */
+}
+
+/* Headings Styling */
+.text-center {
+    margin: 20px 0px; /* Adds more vertical spacing around centered text */
+}
+
+/* Label Styling */
+.text-light {
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Container and Row Styling for Better Spacing */
+.container, .row {
+    margin-bottom: 20px;
+}
+
+/* Custom Button Styling */
+.custom-button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
