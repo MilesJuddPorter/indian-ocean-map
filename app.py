@@ -11,7 +11,7 @@ data = data[data['quantity'] != 0]
 
 # Use a dark theme from Dash Bootstrap Components
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
-
+server = app.server
 # Prepare dropdown options for commodities
 commodities = [{'label': commodity, 'value': commodity} for commodity in data['commodity'].unique()]
 
